@@ -1,0 +1,172 @@
+* {
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+}
+
+body {
+    /*padding: 5px;*/
+}
+
+.container {
+    /*max-width: 960px;*/
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    margin-bottom: 40px;
+}
+.column {
+    padding: 10px;
+    margin-right: 10px;
+    background: white;
+    border: solid;
+    border-color: lightgray;
+    border-width: 1px;
+}
+
+/*.column:last-child {
+    margin-right: 0;
+}*/
+.row-1 {
+    border: 1px;
+    border-color: black;
+    margin-bottom: 0px;
+    align-items: left;
+}
+.column-nav {
+    flex: 12;
+    display: flex;
+    height: 40px;
+    border: 5px black;
+    align-items: center;
+    justify-content: flex-start;
+    list-style-type: none;
+    /*background: white;*/
+}
+li {
+    justify-content: space-around;
+}
+.column-1 {
+    flex: 1;
+    background: white;
+    border-color: white;
+}
+.row-2 {
+    width: 100%;
+    padding: 100px 0;
+    background-image: url(../assets/background.jpg);
+    background-size: cover;
+    text-align: center;
+    margin-top: top;
+}
+.row-2> h2 {
+    color: white;
+    text-align: center;
+    text-shadow: 1px 1px lightgray;
+}
+.row-3 {
+    justify-content: space-around;
+    max-width: 100%;
+}
+.column-3 {
+    flex: 3;
+    /*height: 500px;*/
+    padding: 0px 0px 30px 0px;
+    margin: 40px 10px 0px 10px;
+}
+.column-left {
+    margin-left: 150px;
+}
+.column-right {
+    margin-right: 175px;
+}   
+.perks {
+    border-style: solid;
+    border-width: 1px;
+    border-color: gray;
+    /*width: 100%;*/
+    text-align: center;
+    background-color: lightblue;
+    padding: 15px 0px 15px 0px;
+}
+.membership:first-child {
+    color: white;
+}
+.membership {
+    border-style: hidden;
+    padding: 0px;
+    font-size: 25px;
+    text-align: center;
+    background-color: seagreen;
+    color:lightslategray;
+}
+.fee {
+    /*padding: 0px;*/
+    font-size: 120px;
+    text-align: center;
+    background-color: seagreen;
+    flex-direction: row;
+    color: white;
+}
+.membership-2 {
+    background-color: darkslateblue
+}
+.membership-3 {
+    background-color: black;
+}
+p {
+    margin: 0;
+    padding: 10px 50px 10px 50px;
+}
+.choose {
+    justify-content: center;
+    padding: 25px 130px 0px 130px;
+}
+button {
+    border-radius: 25px;
+    border-width: .5px;
+    text-align: center;
+    align-content: center;
+    padding: 8px 20px 8px 20px;
+    background-color: white; 
+}
+.row-4 {
+    margin-left: 100px;
+    margin-right: 100px;
+    height: 150px;
+    padding: 40px 0px 20px 0px;
+}
+.column-4 {
+    flex: 4;
+    height: 200px;
+    background: white;
+    border-color: white;
+}
+.row-5 {
+    margin-left: 100px;
+    margin-right: 100px;
+    height: 150px;
+    padding: 40px 0px 20px 0px;
+}
+.column-12 {
+    flex: 12;
+    height: 350px; 
+}
+.column-footer {
+    flex:12;
+    height: 0px;
+    text-align: center;
+    justify-content: center;
+    border-color: white;
+}
+.column-footer> p {
+    color: white;
+    background-color: black;        
+}
+a {
+    color: white;
+}
