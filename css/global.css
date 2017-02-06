@@ -17,11 +17,9 @@ body {
 
 .row {
     display: flex;
-    margin-bottom: 40px;
+    /*margin-bottom: 40px;*/
 }
 .column {
-    padding: 10px;
-    margin-right: 10px;
     background: white;
     border: solid;
     border-color: lightgray;
@@ -29,13 +27,10 @@ body {
 }
 
 /*.column:last-child {
-    margin-right: 0;
+    margin-right: 0px;
 }*/
 .row-1 {
-    border: 1px;
-    border-color: black;
     margin-bottom: 0px;
-    align-items: left;
 }
 .column-nav {
     flex: 12;
@@ -43,56 +38,86 @@ body {
     height: 40px;
     border: 5px black;
     align-items: center;
-    justify-content: flex-start;
     list-style-type: none;
-    /*background: white;*/
 }
 li {
-    justify-content: space-around;
+    padding: 0px 15px 0px 15px;
+}
+ul {
+    align-content: flex-start;
 }
 .column-1 {
     flex: 1;
     background: white;
     border-color: white;
+    padding:0px 10px 0px 10px;
 }
 .row-2 {
     width: 100%;
+    height: 450px;
     padding: 100px 0;
     background-image: url(../assets/background.jpg);
     background-size: cover;
-    text-align: center;
     margin-top: top;
 }
-.row-2> h2 {
+h2 {
     color: white;
     text-align: center;
+    justify-content: center;
     text-shadow: 1px 1px lightgray;
 }
 .row-3 {
     justify-content: space-around;
     max-width: 100%;
+    padding: 10px 100px 20px 90px;
+    margin: 0px 100px 40px 100px;
 }
 .column-3 {
-    flex: 3;
-    /*height: 500px;*/
-    padding: 0px 0px 30px 0px;
+    /*flex: 3;
+    padding: 0px 0px 25px 0px;
     margin: 40px 10px 0px 10px;
+    width: 100px;
+    background-color: seagreen;*/
 }
 .column-left {
     margin-left: 150px;
+    flex: 3;
+    /*padding: 0px 0px 25px 0px;*/
+    margin: 40px 10px 0px 10px;
+    width: 100px;
+    background-color: seagreen;
+}
+.column-center {
+    flex: 3;
+    /*padding: 0px 0px 25px 0px;*/
+    margin: 40px 10px 0px 10px;
+    width: 100px;
+    background-color: darkslateblue;
+
 }
 .column-right {
     margin-right: 175px;
+    flex: 3;
+    /*padding: 0px 0px 25px 0px;*/
+    margin: 40px 10px 0px 10px;
+    width: 100px;
+    background-color: black;
 }   
 .perks {
     border-style: solid;
-    border-width: 1px;
-    border-color: gray;
+    border-width: .25px;
+    border-color: lightgray;
     /*width: 100%;*/
     text-align: center;
-    background-color: lightblue;
+    background-color: whitesmoke;
     padding: 15px 0px 15px 0px;
 }
+.perks-top {
+    margin-top: 15px;
+}
+.perks-bottom { 
+    margin-bottom: 15px;
+    }
 .membership:first-child {
     color: white;
 }
@@ -113,32 +138,33 @@ li {
     color: white;
 }
 .membership-2 {
-    background-color: darkslateblue
+    background-color: darkslateblue;
 }
 .membership-3 {
-    background-color: black;
+    background-color: black
 }
 p {
     margin: 0;
     padding: 10px 50px 10px 50px;
 }
 .choose {
-    justify-content: center;
-    padding: 25px 130px 0px 130px;
+    padding: 25px 130px 25px 115px;
+    background-color: white;
+    text-align: center;
 }
 button {
     border-radius: 25px;
     border-width: .5px;
-    text-align: center;
-    align-content: center;
     padding: 8px 20px 8px 20px;
     background-color: white; 
 }
 .row-4 {
     margin-left: 100px;
     margin-right: 100px;
+    margin-bottom: 40px;
     height: 150px;
-    padding: 40px 0px 20px 0px;
+    padding: 10px 140px 20px 140px;
+    
 }
 .column-4 {
     flex: 4;
@@ -149,23 +175,27 @@ button {
 .row-5 {
     margin-left: 100px;
     margin-right: 100px;
+    margin-bottom: 40px;
     height: 150px;
-    padding: 40px 0px 20px 0px;
+    padding: 10px 140px 20px 140px;
 }
 .column-12 {
     flex: 12;
     height: 350px; 
 }
+row-6 {
+        margin-bottom: auto;
+}
 .column-footer {
     flex:12;
-    height: 0px;
     text-align: center;
     justify-content: center;
     border-color: white;
 }
 .column-footer> p {
-    color: white;
-    background-color: black;        
+    color: gray;
+    background-color: black;  
+    padding: 30px 0px 30px 0px;      
 }
 a {
     color: white;
